@@ -1,16 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package poepartone;
+ /*
+* Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+* Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+*/
+ package poepartone;
 
 import java.util.Scanner;
 
 /**
- *
- * @author Student
- */
-   public class PoePartOne {
+*
+* @author Student
+*/
+public class PoePartOne {
 
 public static void main(String[] args) {
 Login register = new Login();
@@ -47,6 +47,8 @@ System.out.println("\n===== Login =====");
 
 boolean loginStatus = false;
 
+// Keep asking for username and password until they match,
+// without going back to registration
 while (!loginStatus) {
 System.out.println("Enter your username: ");
 String loginName = scan.nextLine();
